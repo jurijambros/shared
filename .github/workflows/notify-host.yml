@@ -3,7 +3,7 @@ name: Notify Host Repository
 on:
   push:
     branches:
-      - main  # Trigger when master is updated
+      - master  # Trigger when master is updated
 
 jobs:
   notify-host:
